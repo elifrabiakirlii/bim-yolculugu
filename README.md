@@ -2,7 +2,8 @@
 
 İnşaat mühendisliği öğrencisi olarak BIM öğrenme sürecimi hafta hafta belgelediğim kişisel öğrenme ve portföy sitesi. Her hafta bir araç ya da kavram, ekran görüntüleri, kısa anlatım notları ve tamamlanan eğitimlerin sertifikaları.
 
-🌐 **Canlı site:** [web.itu.edu.tr/kirli22](https://web.itu.edu.tr/kirli22/)
+🌐 **Canlı site:** [elifrabiakirlii.github.io/bim-yolculugu](https://elifrabiakirlii.github.io/bim-yolculugu/)  
+🏫 **İTÜ adresi:** [web.itu.edu.tr/kirli22](https://web.itu.edu.tr/kirli22/)
 
 ## İçerik
 
@@ -36,7 +37,7 @@ assets/         Ekran görüntüleri, notlar (PDF/MD/DOCX), sertifikalar, CV
 
 ## Bilgisayarda açmak
 
-Repoyu indirip `index.html` dosyasını tarayıcıda açman yeterli.
+Repoyu indirip `index.html` dosyasını tarayıcıda açman yeterli. `main` branch'ine yapılan her push, GitHub Pages üzerinden siteyi otomatik günceller.
 
 ## Not
 
