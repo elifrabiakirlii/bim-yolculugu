@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BIM Yolculuğu — Öğrenme & Portföy</title>
+  <meta name="description" content="İnşaat mühendisliği öğrencisi için bütünleşik BIM öğrenme yolculuğu: süreç, Revit pratiği, kaynaklar ve staj portföyü." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("bim-theme") || "night";
+        if (t === "blueprint") t = "night";
+        if (t !== "night" && t !== "concrete") t = "night";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {
+        document.documentElement.setAttribute("data-theme", "night");
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip" href="#journey">Skip to content</a>
+
+  <header class="topbar">
+    <div class="topbar__inner">
+      <a class="brand" href="#top" data-i18n="brand">BIM Yolculuğu</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#journey" data-i18n="nav.journey">Yolculuk</a>
+        <a href="#about" data-i18n="nav.about">Hakkında</a>
+        <a href="#contact" data-i18n="nav.contact">İletişim</a>
+      </nav>
+      <div class="topbar__tools">
+        <div class="theme" role="group" aria-label="Tema" data-i18n-aria="theme.label">
+          <button type="button" class="theme__btn" data-theme-set="night" title="Gece" data-i18n-title="theme.night" aria-label="Gece"></button>
+          <button type="button" class="theme__btn" data-theme-set="concrete" title="Beton" data-i18n-title="theme.concrete" aria-label="Beton"></button>
+        </div>
+        <div class="lang" role="group" aria-label="Language">
+          <button type="button" class="lang__btn is-active" data-lang="tr">TR</button>
+          <button type="button" class="lang__btn" data-lang="en">EN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__grid" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <p class="hero__kicker" data-i18n="hero.kicker">Elif Rabia Kırlı · İnşaat Mühendisliği öğrencisi</p>
+        <h1 data-i18n="hero.title">BIM Yolculuğu</h1>
+        <p class="hero__lead" data-i18n="hero.lead">
+          BIM’i sıfırdan öğrendiğim not defteri. Her hafta ne yaptığımı, hangi araçla çalıştığımı
+          ve ekran kanıtını burada topladım — hem kendime yol olsun diye, hem staj / iş başvurularında gösterebilmek için.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#journey" data-i18n="hero.cta">Haftalara bak</a>
+          <a class="btn btn--ghost" href="#about" data-i18n="hero.cta2">Biraz kendimden</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap">
+        <h2 data-i18n="about.title">Biraz kendimden</h2>
+        <p data-i18n="about.body">
+          Merhaba — ben Elif Rabia. İnşaat mühendisliği okuyorum ve BIM’e sıfırdan başladım.
+          Bu siteyi her hafta ne izlediğimi, ne denediğimi ve ekranda ne yaptığımı unutmamak için tutuyorum.
+          İleride staj ya da iş başvurusunda da «bunları ben yaptım» diyebileyim diye.
+        </p>
+        <ul class="about__points">
+          <li data-i18n="about.p1">Hafta hafta gidiyorum: kavramlar, Revit, Civil, Navisworks, Dynamo, sonra portföy ve CV</li>
+          <li data-i18n="about.p2">Her haftanın yanında ekran görüntüsü ve kısa PDF özet var</li>
+          <li data-i18n="about.p3">Kullandığım araçlar: Revit, Civil 3D, Navisworks, Forma/ACC, Dynamo</li>
+          <li data-i18n="about.p4">Anlatım Türkçe ve İngilizce</li>
+          <li data-i18n="about.p5">Klasörü açıp paylaşmak yeterli — ekstra bir kurulum yok</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="journey" id="journey">
+      <div class="wrap">
+        <header class="journey__head">
+          <h2 data-i18n="journey.title">Öğrenme yolculuğum</h2>
+          <p data-i18n="journey.lead">
+            Bir haftaya tıkla: o hafta ne hedefledim, ne izledim, ne yaptım — hepsi bir arada.
+          </p>
+        </header>
+        <div id="weeks" class="weeks"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2 data-i18n="contact.title">Bana ulaş</h2>
+        <p class="contact__lead" data-i18n="contact.lead">
+          Staj, iş veya BIM hakkında yazmak istersen — buradan ulaşabilirsin.
+        </p>
+        <ul class="contact__links">
+          <li>
+            <a href="mailto:kirli22@itu.edu.tr">kirli22@itu.edu.tr</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/elif-rabia-kirli-7188133a6" target="_blank" rel="noopener noreferrer" data-i18n="contact.linkedin">LinkedIn profilim</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p data-i18n="footer.note">Öğrenme günlüğü &amp; portföy · Temmuz 2026</p>
+      <p class="footer__hint" data-i18n="footer.hint">İTÜ ev dizini: public_html içine bu klasörün içeriğini yükle.</p>
+    </div>
+  </footer>
+
+  <script src="articles/revit-temelleri.js"></script>
+  <script src="articles/revit-yapi.js"></script>
+  <script src="articles/revit-family.js"></script>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

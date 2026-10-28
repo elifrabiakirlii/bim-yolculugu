@@ -1,0 +1,11 @@
+Kaynak: Desktop\4.hafta
+01-arch-3d.png           2026-08-20 134714
+02-link-section.png      2026-08-21 163125
+03-3d-frame.png          2026-08-23 192412
+04-pick-supports.png     2026-08-29 210525
+05-3d-interior.png       2026-08-29 221013
+06-slab-on-steel.png     2026-08-29 221738
+07-roof-plan.png         2026-08-29 224721
+08-footing-schedule.png  2026-08-29 223714
+09-analytical.png        2026-08-29 225152
+Introduction_to_BIM_for_Structural_Design.pdf  BIM Sertifikalar

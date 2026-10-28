@@ -1,0 +1,16 @@
+Revit ekran görüntüleri — TAMAMLANDI ✓
+
+01-entry-model.png   ← revit 4.png  (02 Entry — kapı, pencere, merdiven, mobilya)
+02-dimensions.png    ← revit 6.png  (12600 × 7600 mm ölçüler)
+03-tags-room.png     ← revit 7.png  (Living 100 + pencere tag 32/28)
+04-sheet-a101.png    ← revit 8.png  (Sheet A101 — title block)
+05-3d-site.png       ← revit 1.png  (3D arazi basamakları)
+06-3d-exterior.png   ← revit 2.png  (3D dış görünüm + çatı)
+07-3d-levels.png     ← revit 3.png  (3D level'lar + Section Box)
+08-site-plan.png     ← revit 5.png  (Site planı)
+
+PDF: Revit_Beginner_House.pdf ✓ (masaüstünden)
+
+Site:
+- Tam doküman: revit-yol-haritasi.html
+- Portföy: index.html → Hafta 3

@@ -1,0 +1,23 @@
+# BIM Yolculuğu — İTÜ yayın paketi
+
+Bu klasör **sadece** BIM Yolculuğu sitesidir.
+Sistem Admin, Revit yol haritası sayfaları ve Autodesk eğitim dump’ları yok.
+
+## İTÜ ev dizinine yükleme
+
+1. İçeriği (klasörün kendisini değil, **içindeki dosyaları**) `public_html` klasörüne kopyala.
+2. `index.html` doğrudan `public_html/index.html` olmalı.
+3. Site adresi genelde: `https://web.itu.edu.tr/~kullaniciadin/`
+
+Örnek yapı:
+```
+public_html/
+  index.html
+  styles.css
+  content.js
+  app.js
+  articles/
+  assets/
+```
+
+Webmail → Dosya Yöneticisi ile ev dizinine de yükleyebilirsin.
